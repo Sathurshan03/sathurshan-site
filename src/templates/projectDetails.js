@@ -41,7 +41,6 @@ export default function projectDetails({ data }) {
   )
 }
 
-
 export const query = graphql`
 query ProjectsDetails($slug: String) {
     markdownRemark(frontmatter: {slug: {eq: $slug}}) {
@@ -54,7 +53,7 @@ query ProjectsDetails($slug: String) {
         projectLink
         projectImg{
           childImageSharp {
-            fluid (quality: 90) {
+            fluid {
               ...GatsbyImageSharpFluid
             }
           }

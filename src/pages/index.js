@@ -107,7 +107,7 @@ query ProjectsPage {
         formatDate
         thumbnail {
           childImageSharp {
-            fluid (quality: 90){
+            fluid {
               ...GatsbyImageSharpFluid
             }
           }
