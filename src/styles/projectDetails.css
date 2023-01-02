@@ -36,13 +36,13 @@
 }
 
 .projectTemplate h1{
-  font-size: 3vw;
+  font-size: max(20px, 3vw);
   font-weight: bold;
   color: #fbe086;
 }
 
 .projectTemplate h2{
-  font-size: 1.25vw;
+  font-size: max(16px, 1.25vw);
   color: white;
 }
 

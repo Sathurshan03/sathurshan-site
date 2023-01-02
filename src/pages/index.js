@@ -94,7 +94,7 @@ if (typeof window !== `undefined`) {
   window.addEventListener("scroll", revealDown);
 
   revealDown();
-  }
+}
 
 /*Export page query*/
 export const query = graphql`

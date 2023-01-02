@@ -14,5 +14,5 @@
 }
 
 .four04 h2{
-    font-size: 1.2vw;
+    font-size: max(16px, 1.2vw);
 }

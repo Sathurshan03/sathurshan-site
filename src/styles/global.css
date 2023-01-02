@@ -60,7 +60,7 @@ nav a {
     padding-left: 1vw;
     color: rgb(255,255,255,1.0);
     text-decoration: none;
-    font-size: 1.3vw;
+    font-size: max(16px, 1.3vw);
     font-weight: bold;
     text-align: center;
 }
@@ -90,7 +90,7 @@ nav .leftNav p{
     line-height: 150%;
     padding-left: 15px;
     transform: translatey(-12px);
-    font-size: 3.2vw;
+    font-size: max(18px, 3.2vw);
 }
 
 @keyframes circulate {
