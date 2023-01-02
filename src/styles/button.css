@@ -1,0 +1,59 @@
+.linkedin, .github, .email, .schulich{
+
+    background-color: #f5bd03;
+    width: 4vw;
+    height: 4vw;
+    border-radius: 50%;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    background-blend-mode: multiply;
+    background-position: center;
+}
+
+.linkedin {
+    background-image: url("../images/miscellaneous/linkedin.png");
+    background-size: cover;
+}
+
+.github {
+    background-image: url("../images/miscellaneous/github.png");
+    background-size: cover;
+}
+
+.email {
+    background-image: url("../images/miscellaneous/email.png");
+    background-size: cover;
+}
+
+.schulich {
+    background-image: url("../images/miscellaneous/schulich.png");
+    background-size: cover;
+}
+
+.resume{
+    background-color: #f5bd03;
+    width: 8vw;
+    height: 4vw;
+    border-radius: 1.5vw;
+    text-align: center;
+    font-size: 1.7vw;
+    font-weight: bold;
+    color: black;
+}
+
+.linkProject{
+    margin-top: 5vh;
+    margin-left: 18vw;
+    background-color: #f5bd03;
+    width: 18vw;
+    height: 4vw;
+    border-radius: 1.5vw;
+    text-align: center;
+    font-size: 1.8vw;
+    font-weight: bold;
+    color: black;
+}
+
+.linkedin:hover, .github:hover, .email:hover, .schulich:hover, .resume:hover, .linkProject:hover{
+    box-shadow: 0 0 50px white;
+}

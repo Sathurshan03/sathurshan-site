@@ -1,0 +1,65 @@
+.projectTemplate{
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 4vh;
+}
+
+.title{
+  margin-top: 13vh;
+  text-align: center;
+}
+
+.projectBody{
+  display: inline-flex;
+  flex-direction: row;
+  height: 40vh;
+}
+
+.projectImage{
+  width: 35vw;
+  max-height: 45vh;
+  margin: 0 3vw 0 3vw;
+  border-radius: 1.75vw;
+  object-fit: cover;
+}
+
+.summary{
+  width: 60vw;
+  text-align: left;
+  margin: 0 3vw 0 1.5vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.projectTemplate h1{
+  font-size: 3vw;
+  font-weight: bold;
+  color: #fbe086;
+}
+
+.projectTemplate h2{
+  font-size: 1.25vw;
+  color: white;
+}
+
+.summaryText{
+  margin-top: 3vh;
+  font-size: 1vw;
+  line-height: 160%;
+}
+
+.description{
+  margin-left: 3vw;
+}
+
+.projectTemplate h3{
+  margin: 1vh 0 0 0;
+}
+
+.projectTemplate p{
+  margin: 1vh 0 1vh 0;
+}

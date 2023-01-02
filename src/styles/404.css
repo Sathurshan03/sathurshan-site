@@ -1,0 +1,18 @@
+.four04{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.four04Pic{
+    width: 25vw;
+    filter: drop-shadow(5px -5px 30px #009afa);
+}
+
+.four04 h2{
+    font-size: 1.2vw;
+}
