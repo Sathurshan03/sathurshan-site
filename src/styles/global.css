@@ -24,14 +24,14 @@ nav{
     background: #303030;
     background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("../images/background/checkers.png");
     background-size: 375px;
-    border-bottom-left-radius: 50% 40%;
-    border-bottom-right-radius: 50% 40%;
     height: 11vh;
     min-height: 75px;
     width: 100vw;
     z-index: 100;
     filter: drop-shadow(0 0 1.5vh #fcd03d);
 }
+
+
 nav .leftNav
 {
     width: 60%;
@@ -48,11 +48,13 @@ nav .rightNav
     height: 35%;
     display:inline-flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    flex-grow: 1;
     align-items: center;
     justify-content: flex-end;
     margin-right: 25px;
     float: right;
-    padding: 25px 15px;
+    padding: 40px 15px;
 }
 
 nav a {
@@ -60,7 +62,7 @@ nav a {
     padding-left: 1vw;
     color: rgb(255,255,255,1.0);
     text-decoration: none;
-    font-size: max(16px, 1.3vw);
+    font-size: max(12px, 1.3vw);
     font-weight: bold;
     text-align: center;
 }
@@ -73,8 +75,8 @@ nav a:hover{
 }
 
 nav .logo{
-    width: 8.2vh;
-    height: 8.2vh;
+    width: 10.5vh;
+    height: 10.5vh;
     min-width: 60px;
     min-height: 60px;
     border-radius: 50%;
@@ -90,7 +92,7 @@ nav .leftNav p{
     line-height: 150%;
     padding-left: 15px;
     transform: translatey(-12px);
-    font-size: max(18px, 3.2vw);
+    font-size: max(16px, 3.2vw);
 }
 
 @keyframes circulate {

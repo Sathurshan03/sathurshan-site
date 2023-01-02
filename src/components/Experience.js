@@ -17,9 +17,11 @@ export default function Experience() {
                     alt="experience1pic" 
                     placeholder= "dominantColor"
             />
-            <h1>Software Stack Developer</h1>
-            <h2>McMaster EcoCar Challenge</h2>
-            <h4>Sep 2021 - Present</h4>
+            <div className='info'>
+              <h1>Software Stack Developer</h1>
+              <h2>McMaster EcoCar Challenge</h2>
+              <h4>Sep 2021 - Present</h4>
+            </div>
           </div>
         </div>
         <div className='hiddenLeft'>
@@ -29,9 +31,11 @@ export default function Experience() {
                     alt="experience2pic" 
                     placeholder= "dominantColor"
             />
-            <h1>Engineering TA</h1>
-            <h2>McMaster University</h2>
-            <h4>Sep 2022 - Present</h4>
+            <div className='info'>
+              <h1>Engineering TA</h1>
+              <h2>McMaster University</h2>
+              <h4>Sep 2022 - Present</h4>
+            </div>
           </div>
         </div>
         <div className='hiddenLeft'>
@@ -41,9 +45,11 @@ export default function Experience() {
                     alt="experience3pic" 
                     placeholder= "dominantColor"
             />
-            <h1>Software Research Assistant</h1>
-            <h2>McSCert</h2>
-            <h4>May 2022 - Aug 2022</h4>
+            <div className='info'>
+              <h1>Software Research Assistant</h1>
+              <h2>McSCert</h2>
+              <h4>May 2022 - Aug 2022</h4>
+            </div>
           </div>
         </div>
       </section>

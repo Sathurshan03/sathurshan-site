@@ -85,7 +85,7 @@ p {
     display: inline-flex;
     justify-content: center;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     gap:7vw;
 }
 
@@ -94,7 +94,7 @@ p {
     width: 20vw;
     height: 29vw;
     min-width: 125px;
-    min-height: 300px;
+    min-height: 275px;
     border-radius: 1.5vw;
     display: flex;
     flex-direction: column;
@@ -109,6 +109,13 @@ p {
     min-width: 115px;
     min-height: 115px;
     border-radius: 5%;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-around;
 }
 
 .experience h1{
@@ -152,6 +159,7 @@ p {
     display: inline-flex;
     flex-direction: row;
     justify-content: center;
+    flex-wrap: wrap;
     gap:4vw;
 }
 
