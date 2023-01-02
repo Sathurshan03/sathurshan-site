@@ -40,60 +40,61 @@ export default function Home({data}) {
 }
 
 /*https://alvarotrigo.com/blog/css-animations-scroll/#:~:text=What%20are%20CSS%20Scroll%20Animations,text%2C%20images%2C%20and%20videos.*/
-/*animation from left to right*/ 
-function revealLeft() {
-  var reveals = document.querySelectorAll(".hiddenLeft");
-  for (var i = 0; i < reveals.length; i++) {
-    var windowHeight = window.innerHeight;
-    var elementTop = reveals[i].getBoundingClientRect().top;
-    if (elementTop < windowHeight) {
-      reveals[i].classList.add("showLeft");
-    } else {
-      reveals[i].classList.remove("showLeft");
+if (typeof window !== `undefined`) {
+  /*animation from left to right*/ 
+  function revealLeft() {
+    var reveals = document.querySelectorAll(".hiddenLeft");
+    for (var i = 0; i < reveals.length; i++) {
+      var windowHeight = window.innerHeight;
+      var elementTop = reveals[i].getBoundingClientRect().top;
+      if (elementTop < windowHeight) {
+        reveals[i].classList.add("showLeft");
+      } else {
+        reveals[i].classList.remove("showLeft");
+      }
     }
   }
-}
 
-window.addEventListener("scroll", revealLeft);
+  window.addEventListener("scroll", revealLeft);
 
-revealLeft();
+  revealLeft();
 
-/*animation from right to left*/ 
-function revealRight() {
-  var reveals = document.querySelectorAll(".hiddenRight");
-  for (var i = 0; i < reveals.length; i++) {
-    var windowHeight = window.innerHeight;
-    var elementTop = reveals[i].getBoundingClientRect().top;
-    if (elementTop < windowHeight) {
-      reveals[i].classList.add("showRight");
-    } else {
-      reveals[i].classList.remove("showRight");
+  /*animation from right to left*/ 
+  function revealRight() {
+    var reveals = document.querySelectorAll(".hiddenRight");
+    for (var i = 0; i < reveals.length; i++) {
+      var windowHeight = window.innerHeight;
+      var elementTop = reveals[i].getBoundingClientRect().top;
+      if (elementTop < windowHeight) {
+        reveals[i].classList.add("showRight");
+      } else {
+        reveals[i].classList.remove("showRight");
+      }
     }
   }
-}
 
-window.addEventListener("scroll", revealRight);
+  window.addEventListener("scroll", revealRight);
 
-revealRight();
+  revealRight();
 
-/*animation from down to top*/ 
-function revealDown() {
-  var reveals = document.querySelectorAll(".hiddenDown");
-  for (var i = 0; i < reveals.length; i++) {
-    var windowHeight = window.innerHeight;
-    var elementTop = reveals[i].getBoundingClientRect().top;
-    if (elementTop < windowHeight + windowHeight/3*2) {
-      reveals[i].classList.add("showDown");
-    } else {
-      reveals[i].classList.remove("showDown");
+  /*animation from down to top*/ 
+  function revealDown() {
+    var reveals = document.querySelectorAll(".hiddenDown");
+    for (var i = 0; i < reveals.length; i++) {
+      var windowHeight = window.innerHeight;
+      var elementTop = reveals[i].getBoundingClientRect().top;
+      if (elementTop < windowHeight + windowHeight/3*2) {
+        reveals[i].classList.add("showDown");
+      } else {
+        reveals[i].classList.remove("showDown");
+      }
     }
   }
-}
 
-window.addEventListener("scroll", revealDown);
+  window.addEventListener("scroll", revealDown);
 
-revealDown();
-
+  revealDown();
+  }
 
 /*Export page query*/
 export const query = graphql`

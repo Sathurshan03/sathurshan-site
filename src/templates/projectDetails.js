@@ -1,5 +1,4 @@
 import { graphql } from 'gatsby'
-import { sanitize } from 'dompurify';
 import React from 'react'
 import "../styles/projectDetails.css"
 import Layout from "../components/Layout"
@@ -34,7 +33,7 @@ export default function projectDetails({ data }) {
 
             <div className='description'>
               <h3>Key Highlights</h3>
-              <div className= "points" dangerouslySetInnerHTML={{__html: sanitize(html)}}/>
+              <div className= "points" dangerouslySetInnerHTML={{__html: html}}/>
             </div> 
         </div>
     </Layout>
