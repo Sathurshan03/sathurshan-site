@@ -11,7 +11,7 @@ export default function Button() {
           <button className='github'></button>
         </a>
         
-        <a href='mailto:arulmohs@mcmaster.com'>
+        <a href='mailto:arulmohs@mcmaster.ca'>
           <button className='email'></button>
         </a>
 
