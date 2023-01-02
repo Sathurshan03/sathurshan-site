@@ -54,7 +54,7 @@ query ProjectsDetails($slug: String) {
         projectLink
         projectImg{
           childImageSharp {
-            fluid {
+            fluid (quality: 90) {
               ...GatsbyImageSharpFluid
             }
           }
