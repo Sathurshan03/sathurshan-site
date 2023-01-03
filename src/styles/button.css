@@ -62,4 +62,5 @@
 
 .linkedin:hover, .github:hover, .email:hover, .schulich:hover, .resume:hover, .linkProject:hover{
     box-shadow: 0 0 50px white;
+    cursor: pointer;
 }

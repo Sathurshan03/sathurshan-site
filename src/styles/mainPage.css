@@ -247,6 +247,7 @@ p {
 
 .projectPanels:hover{
     box-shadow: 0 0 5vw #fbe086;
+    cursor: pointer;
 }
 
 .thumbnail{

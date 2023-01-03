@@ -72,6 +72,7 @@ nav a:hover{
     background-clip: text;
     color: transparent;
     text-shadow: 0 0 15px #e4b10c;
+    cursor: pointer;
 }
 
 nav .logo{
