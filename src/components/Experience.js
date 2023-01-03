@@ -56,7 +56,7 @@ export default function Experience() {
 
       <section className='experienceButtons'>
         <div className='hiddenLeft'>
-          <a href='https://www.linkedin.com/in/sathurshan-arulmohan-01666b213/'>
+          <a href='https://www.linkedin.com/in/sathurshan-arulmohan-01666b213/' target="_blank" rel="noreferrer noopener">
               <button className='linkedin'></button>
           </a>
         </div>

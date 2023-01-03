@@ -25,7 +25,7 @@ export default function projectDetails({ data }) {
               <div className='summary'>
                 <h3>Overview</h3>
                 <h4 className='summaryText'>{ summary }</h4>
-                <a href= {projectLink} className= "linkButton"> 
+                <a href= {projectLink} className= "linkButton" target="_blank" rel="noreferrer noopener"> 
                   <button className='linkProject'>Link To Project</button>
                 </a>
               </div>
