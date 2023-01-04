@@ -15,20 +15,18 @@ export default function projectDetails({ data }) {
               <h2>{ formatDate }</h2>
             </div>
 
-            <div className='projectBody'>
-              <div className="projectContainer">
-                <Img fluid={projectImg.childImageSharp.fluid} 
-                alt= { slug } 
-                className="projectImage"/>
-              </div>
+            <div className="projectContainer"> 
+              <Img fluid={projectImg.childImageSharp.fluid} 
+              alt= { slug } 
+              className="projectImage"/>
+            </div>
 
-              <div className='summary'>
-                <h3>Overview</h3>
-                <h4 className='summaryText'>{ summary }</h4>
-                <a href= {projectLink} className= "linkButton" target="_blank" rel="noreferrer noopener"> 
-                  <button className='linkProject'>Link To Project</button>
-                </a>
-              </div>
+            <div className='summary'>
+              <h3>Overview</h3>
+              <p className='summaryText'>{ summary }</p>
+              <a href= {projectLink} className= "linkButton" target="_blank" rel="noreferrer noopener"> 
+                <button className='linkProject'>Link To Project</button>
+              </a>
             </div>
 
             <div className='description'>

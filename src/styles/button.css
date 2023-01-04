@@ -47,11 +47,10 @@
 
 .linkProject{
     margin-top: 5vh;
-    margin-left: 18vw;
     background-color: #f5bd03;
     width: 18vw;
     height: 4vw;
-    min-height: 18px;
+    min-height: 26px;
     min-width: 150px;
     border-radius: 1.5vw;
     text-align: center;

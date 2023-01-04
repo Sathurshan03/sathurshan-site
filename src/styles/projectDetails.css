@@ -2,10 +2,10 @@
   margin: 0;
   padding: 0;
   width: 100vw;
-  height: 100vh;
+  height: auto;
   display: flex;
   flex-direction: column;
-  gap: 4vh;
+  gap: 3vh;
 }
 
 .title{
@@ -13,24 +13,25 @@
   text-align: center;
 }
 
-.projectBody{
-  display: inline-flex;
+.projectContainer{
+  width: 100vw;
+  display: flex;
   flex-direction: row;
-  height: 40vh;
+  justify-content: center;
 }
 
 .projectImage{
   width: 35vw;
-  max-height: 45vh;
+  min-width: 250px;
   margin: 0 3vw 0 3vw;
   border-radius: 1.75vw;
   object-fit: cover;
 }
 
 .summary{
-  width: 60vw;
+  width: 97vw;
   text-align: left;
-  margin: 0 3vw 0 1.5vw;
+  margin: 0 0 0 1.5vw;
   display: flex;
   flex-direction: column;
 }
@@ -48,12 +49,20 @@
 
 .summaryText{
   margin-top: 3vh;
-  font-size: 1vw;
+  font-size: max(14px, 1.4vw);
   line-height: 160%;
 }
 
+.points p{
+  margin-top: 3vh;
+  font-size: max(14px, 1.4vw);
+  line-height: 160%;
+
+}
+
 .description{
-  margin-left: 3vw;
+  margin-left: 1.5vw;
+  margin-right: 1.5vw;
 }
 
 .projectTemplate h3{
