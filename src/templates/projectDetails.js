@@ -6,7 +6,7 @@ import Img from "gatsby-image"
 
 export default function projectDetails({ data }) {
     const { html } = data.markdownRemark
-    const { title, slug, formatDate, summary, projectLink,  projectImg } = data.markdownRemark.frontmatter
+    const { title, slug, formatDate, summary, projectLink,  projectImg } = data.markdownRemark.frontmatter    
   return (
     <Layout>
         <div className='projectTemplate'>
