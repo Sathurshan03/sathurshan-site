@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <footer >
         <Button />
-        <p>Last Updated: Jan. 2023</p>
+        <p>Last Updated: July 2023</p>
     </footer>
   )
 }

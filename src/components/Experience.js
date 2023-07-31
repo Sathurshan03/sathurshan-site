@@ -18,7 +18,7 @@ export default function Experience() {
                     placeholder= "dominantColor"
             />
             <div className='info'>
-              <h1>Software Stack Developer</h1>
+              <h1>Autonomous Feature Developer</h1>
               <h2>McMaster EcoCar Challenge</h2>
               <h4>Sep 2021 - Present</h4>
             </div>
@@ -46,9 +46,9 @@ export default function Experience() {
                     placeholder= "dominantColor"
             />
             <div className='info'>
-              <h1>Software Research Assistant</h1>
+              <h1>Software Research Assistant II</h1>
               <h2>McSCert</h2>
-              <h4>May 2022 - Aug 2022</h4>
+              <h4>May 2023 - Aug 2023</h4>
             </div>
           </div>
         </div>
